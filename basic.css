@@ -1,0 +1,46 @@
+p
+	{
+		text-align : justify;
+		font-size : 12pt;
+		line-height : 15pt;
+	}
+body
+	{
+		background-color : rgb(255, 200, 100);
+		font-family : Comfortaa, Lexend, Monospace; /* The font of the body will probably be Comfortaa.*/
+	}
+.center
+	{
+		text-align : center;
+		color : rgb(100, 0, 200);
+	}
+img
+	{
+		
+		margin-bottom : 2%;
+		margin-left: 40%;
+	}
+.NonTableImage
+	{
+		border-color : black;
+		border-width : medium;
+		border-style : solid;
+		padding : 0.5%;/*I wanted the images which were not in a table to have a border. */ 
+	}
+#Appearance, #Computers
+	{
+		color : teal; /*I chose this color because I wanted a color which was less known to people.*/
+	}
+table, td, tr
+	{
+		border: 2px solid;
+		width: 75%;
+		border-collapse: collapse;
+		text-align: center;
+	}
+img
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
